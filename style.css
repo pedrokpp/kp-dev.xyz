@@ -1,0 +1,72 @@
+html {
+    background-color: #1c1c1c;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("https://images-ext-1.discordapp.net/external/pbhVp9C479eRHrheOUcsS87HJ7Lo4Xo_kjfpHZvokfU/http/media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#shadow {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    animation: fade-in 3s;
+    background-color: rgb(146, 146, 146);
+    height: 450px;
+    width: 350px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contents img {
+    display: block;
+    border-radius: 55px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contents h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #0f0f0f;
+}
+
+.contents p {
+    color: #0f0f0f;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.socials a {
+    display: inline-block;
+}
+
+.socials img:hover {
+    width: 55px;
+    height: 55px;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
