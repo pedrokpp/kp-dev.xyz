@@ -61,9 +61,12 @@ html {
     display: inline-block;
 }
 
+.socials img {
+    transition: transform 0.2s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
 .socials img:hover {
-    width: 55px;
-    height: 55px;
+    transform: translate(0px, -5px);
 }
 
 @keyframes fade-in {
